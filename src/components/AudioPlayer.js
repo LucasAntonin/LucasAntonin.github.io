@@ -24,7 +24,7 @@ function AudioPlayer() {
     }
 
     return (
-        <div onClick={() => togglePlay()} className="relative inline-flex items-center cursor-pointer font-extrabold text-blue-800 text-4xl">
+        <div onClick={() => togglePlay()} className="hidden md:block relative inline-flex items-center cursor-pointer font-extrabold text-blue-800 text-4xl">
             <NeonCircle>
                 {isPlaying ? <IoPauseCircleOutline /> : <IoPlayCircleOutline />}
             </NeonCircle>
