@@ -1,5 +1,22 @@
-body, html {
+body,
+html {
     height: 100%;
     margin: 0;
     background-color: #10100f;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    border: 7px solid #101113;
+    box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg,
+            #0891b2,
+            #2563eb);
+    border-radius: 3px;
 }
