@@ -13,6 +13,12 @@ function App() {
   return (
     <div className='overflow-x-hidden'>
       <Navbar />
+      <div className="space">
+        <div className="particle"></div>
+        <div className="particle"></div>
+        <div className="particle"></div>
+        <div className="particle"></div>
+      </div>
       <div className="m-10 grid md:grid-cols-2 grid-cols-1">
         <NeonBox>
           <div className='flex justify-center mb-5 mt-10'>
@@ -32,7 +38,7 @@ function App() {
             <a href='https://github.com/LucasAntonin' target="_blank"><AiOutlineGithub /></a>
           </div>
         </NeonBox>
-        <img className="w-10/12 h-full hidden md:block" src="images/neon-fox.png" />
+        <img className="z-40 w-10/12 h-full hidden md:block" src="images/neon-fox.png" />
       </div>
       {/* About */}
       <div id="about" className='m-10'>
