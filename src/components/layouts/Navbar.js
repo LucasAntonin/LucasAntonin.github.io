@@ -8,7 +8,7 @@ function Navbar() {
                 <nav className="relative px-2 bg-dark-fox">
                     <div className="container flex flex-wrap items-center justify-between mx-auto">
                         <a href="#" className="flex items-center">
-                            <img src="images/Foxi_Logo.png" className="h-6 mr-3 sm:h-10" alt="Flowbite Logo" />
+                            <img src="images/Foxi_Logo.png" className="h-6 mr-3 sm:h-10 selector-image" alt="Flowbite Logo" />
                         </a>
                         <button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center mt-1 sm:mt-0 p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-cyan-600" aria-controls="navbar-default" aria-expanded="false">
                             <span className="sr-only">Open main menu</span>
@@ -23,10 +23,10 @@ function Navbar() {
                                     <a href="#experience" className="block py-2 pl-3 pr-4 text-white rounded md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Experience</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="block py-2 pl-3 pr-4 text-white rounded md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Work</a>
+                                    <a href="https://github.com/LucasAntonin" target="_blank" rel="noreferrer" className="block py-2 pl-3 pr-4 text-white rounded md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">GitHub</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="block py-2 pl-3 pr-4 text-white rounded md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Contact</a>
+                                    <a onClick={() => window.open('mailto:lucasantonin084@gmail.com?subject=Subject&body=Body%20goes%20here')} className="cursor-pointer block py-2 pl-3 pr-4 text-white rounded md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Contact</a>
                                 </li>
                             </ul>
                         </div>

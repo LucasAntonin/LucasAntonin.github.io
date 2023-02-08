@@ -3,6 +3,16 @@ html {
     height: 100%;
     margin: 0;
     background-color: #10100f;
+    scroll-padding-top: 5vw;
+}
+
+.selector-image {
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
 ::-webkit-scrollbar {

@@ -38,10 +38,10 @@ function App() {
             <a href='https://github.com/LucasAntonin' target="_blank"><AiOutlineGithub /></a>
           </div>
         </NeonBox>
-        <img className="z-40 w-10/12 h-full hidden md:block" src="images/neon-fox.png" />
+        <img className="z-40 w-10/12 h-full hidden md:block selector-image" src="images/neon-fox.png" />
       </div>
       {/* About */}
-      <div id="about" className='m-10'>
+      <div id="about" className='m-5 sm:m-10'>
         <NeonBox>
           <NeonTitle>
             About Me
@@ -52,7 +52,7 @@ function App() {
         </NeonBox>
       </div>
       {/* Experience */}
-      <div id="experience" className='m-10'>
+      <div id="experience" className='m-5 sm:m-10'>
         <NeonBox>
           <NeonTitle>
             Experience
@@ -84,7 +84,7 @@ function App() {
             Brazil
           </Location>
           <NeonText>
-            I have provided web development services to a range of small clients, delivering custom-built solutions that meet their unique needs. My expertise in Node.js, Laravel, React.js, Vue, and Tailwind CSS has allowed me to create dynamic and user-friendly web applications that not only meet but exceed my clients' expectations. I am dedicated to staying at the forefront of web development technologies, continuously improving my skillset to provide the highest quality services to my clients.
+            I have provided web development services to a range of small clients, delivering custom-built solutions that meet their unique needs. My expertise in Node.js, Laravel, React.js, Vue, and Tailwind CSS has allowed me to create dynamic and user-friendly web applications that not only meet but exceed my clients' expectations.
           </NeonText>
         </NeonBox>
       </div>
